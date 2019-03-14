@@ -1,0 +1,15 @@
+{
+  "name": "puki2md",
+  "version": "0.0.3",
+  "description": "Convert pukiwiki style code to markdown style",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "pukiwiki",
+    "md"
+  ],
+  "author": "Asmape",
+  "license": "MIT"
+}
