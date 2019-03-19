@@ -1,6 +1,6 @@
 {
   "name": "puki2md",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Convert pukiwiki style code to markdown style",
   "main": "index.js",
   "scripts": {

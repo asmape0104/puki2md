@@ -14,11 +14,6 @@ module.exports = function(text) {
     // 水平線
     result = result.replace(/^#hr/mg, '____');
 
-    // tatami
-    result = result.replace(/^#tatami\(([^,]*),([^\)]+)\)/mg, (...p) => {
-        return '*'.repeat(parseInt(p[2])) + (p[1] || ' ') + ' [close]';
-    })
-
     // プラグインは&に統一する。見出しで#を使うので見出しより前でやる。
     // result = result.replace(/^#([a-z])/mg, '&$1');
 
